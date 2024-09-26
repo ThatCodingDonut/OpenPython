@@ -1,5 +1,4 @@
 setup.py
-test.py
 *.ignore.*
 **/*.ignore.*
 *.log
