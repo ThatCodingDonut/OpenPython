@@ -1,3 +1,5 @@
 ./setup.py
 ./test.py
 ./*.ignore.*
+.gitignore
+.env
