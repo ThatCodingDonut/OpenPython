@@ -1,7 +1,10 @@
 setup.py
 test.py
 *.ignore.*
+**/*.ignore.*
+*.log
 .env
+ignore/
 
 licenses/*
 /.idea
