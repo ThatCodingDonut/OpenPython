@@ -1,0 +1,10 @@
+setup.py
+test.py
+*.ignore.*
+.env
+
+licenses/*
+/.idea
+/.idea/*
+/.vscode
+/.vscode/*
