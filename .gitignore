@@ -1,5 +1,10 @@
-./setup.py
-./test.py
-./*.ignore.*
-.gitignore
+setup.py
+test.py
+*.ignore.*
 .env
+
+licenses/*
+/.idea
+/.idea/*
+/.vscode
+/.vscode/*
