@@ -17,5 +17,5 @@ NOTE: If anything besides the pkgs package is changed, your request will be DENI
 5. You're all done! Now just make sure to DM me your cashapp/venmo/paypal/kofi/thanks.dev link to me to be on the sponsors list below!
 
 # --> SPONSORS & STAFF <--
-ThatCodingDonut (OWNER/PROGRAMMER) -> https://cash.app/imjustadonut
-LuckierBranch7 (OWNER'S FRIEND/CONTRIBUTER) -> [NO DONATION LINKS]
+- ThatCodingDonut (OWNER/PROGRAMMER) -> https://cash.app/imjustadonut
+- LuckierBranch7 (OWNER'S FRIEND/CONTRIBUTER) -> [NO DONATION LINKS]
