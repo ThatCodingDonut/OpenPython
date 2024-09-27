@@ -8,7 +8,7 @@ with open("./requirements.txt", 'r+') as f:
 
 setup(
     name='openpy-pkg',
-    version='1.0.4',
+    version='1.0.5',
     packages=find_packages(),
     install_requires=reqs,
     author='Corbin Chandler',
