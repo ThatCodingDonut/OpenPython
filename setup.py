@@ -5,14 +5,14 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        # Add your package dependencies here
+        "colorama"
     ],
-    author='Your Name',
-    author_email='your.email@example.com',
-    description='A brief description of your package',
+    author='Corbin Chandler',
+    author_email='corbinchandler777@icloud.com',
+    description='OpenPython is a python package that allows users to collaborate to make the best python package available!',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/openpython',
+    url='https://github.com/thatcodingdonut/openpython',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
