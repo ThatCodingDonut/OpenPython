@@ -2,10 +2,11 @@ from colorama import Fore
 import colorama
 import datetime
 
+
 class log:
     def __init__(self):
         pass
-    
+
     def err(msg: str, errCode: int, color = Fore.RED):
         time = datetime.datetime.now()
         print("{color}[-> {timestamp} <-] (ERR - {code})  >>>  {msg}".format(code=errCode, msg=msg, color=color, timestamp=time))
