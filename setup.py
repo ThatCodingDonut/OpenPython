@@ -1,12 +1,16 @@
 from setuptools import setup, find_packages
 
+reqs=[]
+
+with open("./requirements.txt", 'r+') as f:
+    for line in f.readlines():
+        reqs.append(line.replace("\n", ""))
+
 setup(
     name='openpy-pkg',
     version='1.0.4',
     packages=find_packages(),
-    install_requires=[
-        "colorama"
-    ],
+    install_requires=reqs,
     author='Corbin Chandler',
     author_email='corbinchandler777@icloud.com',
     description='OpenPython is a python package that allows users to collaborate to make the best python package available!',
