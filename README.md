@@ -12,7 +12,8 @@ Read me published [on my Medium page](https://corbin-c.medium.com/the-openpython
 2. Now do "import openpython.pkgs.\<package\>", or "from openpython.pkgs import \<package\>"
 
 # --> HOW TO COLLABORATE <--
-1. Create a pull request
+(Create a branch)
+1. Create a pull request when you are done.
 2. DM me at @thataveragedonut on discord, or email me at corbinchandler777@icloud.com
 3. After it is approved, start working on a new package in PKGS.
 NOTE: If anything besides the pkgs package is changed, your request will be DENIED
