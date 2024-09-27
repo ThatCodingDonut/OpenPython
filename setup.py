@@ -1,14 +1,18 @@
 from setuptools import setup, find_packages
 
 reqs=[]
+ver="0.0.0"
 
 with open("./requirements.txt", 'r+') as f:
     for line in f.readlines():
         reqs.append(line.replace("\n", ""))
 
+with open("./.version", "r+") as f:
+    ver = f.read()
+
 setup(
     name='openpy-pkg',
-    version='1.0.5',
+    version='{}'.format(ver),
     packages=find_packages(),
     install_requires=reqs,
     author='Corbin Chandler',
