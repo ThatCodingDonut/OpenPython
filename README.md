@@ -8,6 +8,9 @@ Read me published [on my Medium page](https://corbin-c.medium.com/the-openpython
 3. Unzip folder
 4. Move the "openpython" directory located inside of OpenPython into whatever project you need it.
 
+1. Type "pip3 install openpy-pkg"
+2. Now do "import openpython.pkgs.<package>", or "from openpython.pkgs import <package>"
+
 # --> HOW TO COLLABORATE <--
 1. Create a pull request
 2. DM me at @thataveragedonut on discord, or email me at corbinchandler777@icloud.com
