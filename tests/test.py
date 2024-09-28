@@ -1,4 +1,5 @@
-from openpython.pkgs import better_logs, licenses
+from openpython.pkgs import licenses
+from openpython.pkgs.better_logs import log as better_logs
 from colorama import Fore
 
 # Example Logging System
