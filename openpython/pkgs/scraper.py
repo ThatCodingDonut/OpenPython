@@ -17,7 +17,7 @@ def fetch_html(url):
 def parse_html(html):
     return BeautifulSoup(html, 'html.parser')
 
-# Returns all links (<a>) at the given url
+# Returns a list of all links (<a> tags) at the given url
 def get_links(url):
     parsed_html = parse_html(fetch_html(url))
     if parsed_html:
@@ -27,7 +27,7 @@ def get_links(url):
         return None
     return None
 
-# Returns all headings (<h1> to <h6>) at the given url
+# Returns all headings (<h1> to <h6> tags) at the given url
 def get_headings(url):
     parsed_html = parse_html(fetch_html(url))
     if parsed_html:
@@ -37,7 +37,7 @@ def get_headings(url):
         return None
     return None
 
-# Return all ids (id attribute) at the given url
+# Returns all IDs (id attribute) at the given url
 def get_ids(url):
     parsed_html = parse_html(fetch_html(url))
     if parsed_html:
