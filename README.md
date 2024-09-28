@@ -23,3 +23,4 @@ NOTE: If anything besides the pkgs package is changed, your request will be DENI
 # --> SPONSORS & STAFF <--
 - ThatCodingDonut (OWNER/PROGRAMMER) -> https://cash.app/imjustadonut
 - LuckierBranch7 (OWNER'S FRIEND/CONTRIBUTER) -> [NO DONATION LINKS]
+- Blaze04 (CONTRUBUTER) -> [NO DONATION LINKS]
