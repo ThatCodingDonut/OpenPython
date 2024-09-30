@@ -74,21 +74,3 @@ def gen_crud_code(entity_name: str, entity_class_name: str, db_name: str, reques
         ))
 
     print("Successfully generated CRUD code for FastAPI and saved to 'main.py'")
-
-entity_name = "person"
-entity_class_name = "Person"
-db_name = "persons"
-request_body_obj = {
-    "name": "str", 
-    "age": "int",
-}
-entity_var = "person"
-
-
-gen_crud_code(
-    entity_name=entity_name, 
-    entity_class_name=entity_class_name,
-    db_name=db_name,
-    request_body_obj=request_body_obj,
-    entity_var=entity_var,
-)
